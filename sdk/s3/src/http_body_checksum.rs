@@ -270,7 +270,7 @@ mod tests {
 
         for i in 0..10000 {
             let line = format!("This is a large file created for testing purposes {}", i);
-            file.as_file_mut().write(line.as_bytes()).unwrap();
+            file.as_file_mut().write_all(line.as_bytes()).unwrap();
             crc32c_checksum.update(line.as_bytes());
         }
 
@@ -349,3 +349,4 @@ mod tests {
         assert_eq!(input_text, body);
     }
 }
+
