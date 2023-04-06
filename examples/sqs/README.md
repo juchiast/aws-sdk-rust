@@ -8,7 +8,7 @@ Amazon SQS is a fully managed message queuing service that makes it easy to deco
 
 ## Code examples
 
-- [Sends a message to and receives the message from a queue](src/bin/sqs-helloworld.rs) (ListQueues, ReceiveMessage, SendMessage)
+- [Sends a message to and receives the message from a queue](src/bin/sqs-hello-world.rs) (ListQueues, ReceiveMessage, SendMessage)
 
 ## ⚠ Important
 
